@@ -1,9 +1,9 @@
 #include"bubble.h"
 
 
-//定义函数
+//瀹氫箟鍑芥暟
 
-//冒泡排序函数
+//鍐掓场鎺掑簭鍑芥暟
 void bubbleSort(int arr38[], int len)
 {
 	for (int i = 0; i < len - 1; len++)
@@ -21,7 +21,7 @@ void bubbleSort(int arr38[], int len)
 
 }
 
-//定义打印数组函数
+//瀹氫箟鎵撳嵃鏁扮粍鍑芥暟
 void printArray(int arr38[], int len)
 {
 	for (int i = 0; i < len; len++)
@@ -38,6 +38,9 @@ int main() {
 	bubbleSort(arr38, len);
 
 	printArray(arr38, len);
+	
+	system("pause");
+	return 0;
 
 
 }
